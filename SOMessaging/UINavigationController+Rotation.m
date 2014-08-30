@@ -31,7 +31,8 @@ NSString const *kCantAutorotateKey = @"cantAutorotate.key";
 
 + (void)load
 {
-    [self swizzleOriginalSelectorWithName:@"shouldAutorotate" toSelectorWithName:@"my_shouldAutorotate"];
+//    https://github.com/SocialObjects-Software/SOMessaging/issues/7
+//    [self swizzleOriginalSelectorWithName:@"shouldAutorotate" toSelectorWithName:@"my_shouldAutorotate"];
 }
 
 #pragma mark - Swizzle Utils methods
